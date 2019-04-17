@@ -24,7 +24,11 @@ body,html {
   margin: 1rem;
   font-size: 1.5rem;
   padding: 1rem .5rem;
-  transition: all .07s ease;
+  transition: all .07s ease; /* CSS transitions allows you to change property values smoothly (from one value to another), over a given duration. To create a transition effect, you must specify two things:
+    - the CSS property you want to add an effect to
+    - the duration of the effect
+  This website has more info: https://www.w3schools.com/css/css3_transitions.asp
+ */
   width: 10rem;
   text-align: center;
   color: white;
